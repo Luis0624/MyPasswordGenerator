@@ -25,7 +25,7 @@ Demo image for cloning github repo
 
 [demo for cloning github repo](https://github.com/Luis0624/MyPasswordGenerator.git)
 
-[deployed Github pages link](https://)
+[deployed Github pages link](https://luis0624.github.io/MyPasswordGenerator/)
 
 Sample image of deployed repo
 ![Working Demo Picture ](Assets\images\WorkingDemo.png)
