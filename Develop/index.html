@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1> High Security Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Get your Password Generated</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          
+          <label for="characterRange">Character Range 8-128</label>
+          <input type="number" name="CharacterRange" id="characterRange" min="8"
+          max="128">
+          
+          <input type="checkbox" name="lowercaseCharacter" id="lowercaseCharacter">Use lowercase</input>
+          <!-- <label for="lowercaseCharacter">Use Lowercase</label> -->
+
+          <input type="checkbox" name="uppercaseCharacter" id="uppercaseCharacter">Use Uppercase</input>
+          <!-- <label for="UppercaseCharacter">Use Uppercase</label> -->
+
+          <input type="checkbox" name="numbersCharacter" id="numbersCharacter">Use Numbers</input>
+          <!-- <label for="numbersCharacter">Use Numbers</label> -->
+
+          
+          <input type="checkbox" name="specialCharacter" id="specialCharacter">Use specialCharacters</input>
+          <!-- <label for="specialCharacter">Use Special Characters</label> -->
+
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
